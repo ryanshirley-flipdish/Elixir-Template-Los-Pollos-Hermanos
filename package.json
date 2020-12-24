@@ -1,0 +1,23 @@
+{
+  "name": "elixir-template-los-pollos-hermanos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanshirley-flipdish/Elixir-Template-Los-Pollos-Hermanos.git"
+  },
+  "author": "Flipdish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanshirley-flipdish/Elixir-Template-Los-Pollos-Hermanos/issues"
+  },
+  "homepage": "https://github.com/ryanshirley-flipdish/Elixir-Template-Los-Pollos-Hermanos#readme",
+  "devDependencies": {
+    "auto-changelog": "^2.2.1"
+  }
+}
