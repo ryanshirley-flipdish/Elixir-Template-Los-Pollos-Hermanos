@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap");
 
 :root {
+     /*Font-Size*/
+    --new-font-size: "17px";
     --header-background: #ffffff;
     --header-colour-tabs: #1d2130;
     --header-colour-highlight: #f0591e;
@@ -62,6 +64,11 @@
     
     *********************************************************
     ********************************************************/
+
+/*New Font*/
+#aboutSection p.text{
+ font-size: var(--new-font-size) !important;
+ }
 
 /*----------------------------------------------
     HIDE / RESETS
