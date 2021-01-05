@@ -2,7 +2,7 @@
 
 :root {
      /*Font-Size*/
-    --new-font-size: "17px";
+    --about-body-font-size: 17px;
     --header-background: #ffffff;
     --header-colour-tabs: #1d2130;
     --header-colour-highlight: #f0591e;
@@ -67,7 +67,7 @@
 
 /*New Font*/
 #aboutSection p.text{
- font-size: var(--new-font-size) !important;
+ font-size: var(--about-body-font-size) !important;
  }
 
 /*----------------------------------------------
