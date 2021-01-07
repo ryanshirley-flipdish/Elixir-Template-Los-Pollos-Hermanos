@@ -5,6 +5,7 @@
     --about-heading-font-size:24px;
      /*Font-Size*/
     --about-body-font-size: 17px;
+	--about-button-font-size:26px;
     --header-background: #ffffff;
     --header-colour-tabs: #1d2130;
     --header-colour-highlight: #f0591e;
@@ -1435,6 +1436,21 @@ section#home-slider #discount-badge .title {
 /*----------------------------------------------
     ABOUT SECTION
     ----------------------------------------------*/
+/*Order Button*/
+#aboutSection .orderButton {
+    border: 1px var(--about-colour-highlight) solid;
+    background-color: var(--about-colour-highlight) !important;
+    color: var(--about-background) !important;
+    padding: 3px 10px;
+    font-size: var(--about-button-font-size) !important;
+    margin-bottom: 20px
+}
+
+#aboutSection .orderButton:hover {
+    border: 1px var(--about-colour-highlight) solid;
+    background-color: var(--about-background) !important;
+    color: var(--about-colour-highlight) !important;
+}
 
 #aboutSection .section-title {
     color: var(--about-colour-section) !important;
