@@ -1433,6 +1433,39 @@ section#home-slider #discount-badge .title {
     color: var(--hero-colour) !important;
 }
 
+
+
+/*Set Slider to show 1st picture only on mobile*/
+@media (max-width: 991px) {
+    #home-slider .owl-carousel .owl-wrapper-outer {
+        height: calc(66vh - 90px)!important;
+    }
+    #home-slider .owl-carousel .owl-wrapper {
+        transition: 0ms !important;
+        transform: none !important;
+        transform-origin: 0px center !important;
+        perspective-origin: 0px center !important;
+    }
+    #home-slider .owl-carousel .owl-origin {
+        -webkit-perspective: 0px !important;
+        -webkit-perspective-origin-x: 0% !important;
+        -webkit-perspective-origin-y: 0% !important;
+        -moz-perspective: 0px !important;
+        -moz-perspective-origin-x: 0% !important;
+        -moz-perspective-origin-y: 0% !important;
+        perspective: 0px !important;
+    }
+    #home-slider .owl-fade-out {
+        animation: none !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+    }
+    #home-slider .owl-carousel .owl-item:first-child {
+        z-index: 999999 !important;
+        position: static !important;
+    }
+    }
+
 /*----------------------------------------------
     ABOUT SECTION
     ----------------------------------------------*/
@@ -1530,6 +1563,14 @@ section#home-slider #discount-badge .title {
         margin-bottom: 16px !important;
     }
 }
+
+/*Fixes slider to display 1 image at a time on Desktop about section*/
+@media (min-width: 991px) {
+    #aboutSection .owl-wrapper-outer {
+        overflow: hidden !important;
+    }
+}  
+
 
 /*----------------------------------------------
     ABOUT PAGE
